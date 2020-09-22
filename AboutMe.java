@@ -4,10 +4,12 @@
  * Purpose:
  */
 
-public class AboutMe {
+public class AllAboutMe {
     public static void main (String [] args) {
         // Declaring the variables
-        // TODO: Write the code the declares the variables
+    	String myName = "Meghan";
+    	int myAge = 16;
+    	double myHeightInMetres = 1.62;
 
         // Print the values
         System.out.println("Hi, my name is " + myName);
@@ -15,10 +17,12 @@ public class AboutMe {
         System.out.println("My height is " + myHeightInMetres + " m.");
 
         // Change the variables
-        // TODO: Write the code that changes the variables
+        myAge = 21;
+        myHeightInMetres = 1.64;
 
         // Print the new values
         System.out.println("Some time passes...");
-        // TODO: Write the last two print statements
+        System.out.println("I am now " + myAge + " years old");
+        System.out.println("I have grown and am " + myHeightInMetres + " m tall.");
     }
 }
